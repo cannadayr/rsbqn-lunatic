@@ -5,4 +5,11 @@ edition = "2021"
 
 # See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
 
+[build]
+target = "wasm32-wasi"
+
+[target.wasm32-wasi]
+runner = "lunatic"
+
 [dependencies]
+lunatic = { git = "https://github.com/lunatic-solutions/rust-lib", rev = "fbdac3c430f45d7071319d301e35bc672d3a6f4d" }
