@@ -13,3 +13,5 @@ runner = "lunatic"
 
 [dependencies]
 lunatic = { git = "https://github.com/lunatic-solutions/rust-lib", rev = "fbdac3c430f45d7071319d301e35bc672d3a6f4d" }
+rsbqn = { git = "https://github.com/cannadayr/rsbqn", rev = "bb156feb20b00917f2ddde2f971a68d6e3610b56" }
+bacon_rajan_cc = { git = "https://github.com/fitzgen/bacon-rajan-cc", rev = "a30621ee3b1a8bc5358a5fb333b7a1dd309060be" }
